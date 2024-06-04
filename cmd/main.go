@@ -55,7 +55,7 @@ func main() {
 
 	}
 
-	fmt.Println("wins with no change: " + fmt.Sprintf("%d", int((float64(noChangeStrategyWins)/experimentsNumber)*100)))
-	fmt.Println("wins with change: " + fmt.Sprintf("%d", int((float64(changeStrategyWins)/experimentsNumber)*100)))
+	fmt.Println("wins with no change: " + fmt.Sprintf("%d%%", int((float64(noChangeStrategyWins)/experimentsNumber)*100)))
+	fmt.Println("wins with change: " + fmt.Sprintf("%d%%", int((float64(changeStrategyWins)/experimentsNumber)*100)))
 
 }
